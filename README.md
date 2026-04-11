@@ -47,7 +47,7 @@ L'application couvre les besoins métiers principaux d'un centre de formation au
 ### Gestion des Écolages
 - Tableau financier complet
 - Statuts : **Payé / Partiel / Impayé**
-- Modal de paiement simulée **Stripe / PayPal**
+- Modal de paiement simulée **Cash / Mobile Money**
 - Génération de facture **PDF** via `jsPDF`
 - Simulation rappel **SMS / Email** type Twilio
 - Graphique **taux de recouvrement mensuel** via **Recharts**
@@ -165,14 +165,7 @@ npm run preview  # Prévisualise le build de production
 
 ```text
 gestioncours-pro/
-├── public/                          # Fichiers statiques servis par Vite
-│   └── favicon.ico                  # Icône de l'application (optionnelle)
-│
 ├── src/                             # Code source principal du frontend
-│   ├── assets/                      # Images, logos, icônes, illustrations
-│   │   ├── logo.svg                 # Logo de l'application (optionnel)
-│   │   └── illustrations/           # Visuels complémentaires
-│   │
 │   ├── components/                  # Composants UI réutilisables
 │   │   ├── Header.jsx               # Header principal
 │   │   ├── Sidebar.jsx              # Navigation latérale
@@ -192,7 +185,6 @@ gestioncours-pro/
 │   │   ├── mockFees.js              # Écolages / paiements
 │   │   └── mockAttendanceForum.js   # Présences / forum
 │   │
-│   ├── hooks/                       # Hooks personnalisés (structure évolutive)
 │   ├── layouts/                     # Layouts globaux
 │   │   └── AppLayout.jsx            # Header + Sidebar + Outlet
 │   │
@@ -221,7 +213,6 @@ gestioncours-pro/
 ├── tailwind.config.js               # Configuration Tailwind CSS
 ├── vite.config.js                   # Configuration Vite
 └── README.md                        # Documentation du projet
-```
 
 ---
 
