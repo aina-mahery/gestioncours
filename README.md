@@ -12,7 +12,6 @@ Application web **100 % sur mesure** de gestion d’établissement / centre de f
 
 Cette application respecte strictement le périmètre demandé :
 
-- ✅ **Aucune dépendance à Supabase / Firebase**
 - ✅ **Backend 100 % sur mesure** avec **Node.js / Express**
 - ✅ **Base de données PostgreSQL** auto-hébergée
 - ✅ **Authentification JWT + Refresh Tokens** implémentée
