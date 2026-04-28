@@ -1,0 +1,21 @@
+{
+  "app": {
+    "name": "GestionCours Pro",
+    "nameShort": "Platform"
+  },
+  "header": {
+    "search": "Search",
+    "searchPlaceholder": "Search for a course, member, or payment...",
+    "language": "Language",
+    "profile": "Profile"
+  },
+  "sidebar": {
+    "navigationLabel": "Main navigation",
+    "dashboard": "Dashboard",
+    "cours": "Courses",
+    "membres": "Members",
+    "ecolages": "Tuition",
+    "presence": "Attendance",
+    "forum": "Forum"
+  }
+}
